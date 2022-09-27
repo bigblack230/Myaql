@@ -1,0 +1,14 @@
+创建MySQL数据库：create database name
+//*代码执行重复为：if not exists
+删除数据库：drop database name//*同上
+创建表：create table name(name 类,);
+删除表：drop table name;
+更改表名：alter table name(原表名）rename name(新)； 
+添加元素：alter table name(表名) add column name(元素名) 类型；
+删除元素：alter table name(表名) drop column name(元素名);
+改变元素次序：alter table name(表面) modify name(元素名) 类型 first;
+//*after 跟随前一个元素；first 排第一个元素
+修改元素名：alter table name(表名) change name(原名) name（新名） 新类型；
+查看数据库：show databases;
+选择数据库：use name；
+查看数据表：desc name;
